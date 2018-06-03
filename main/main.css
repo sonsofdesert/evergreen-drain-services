@@ -1,0 +1,52 @@
+body {
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: cover;
+}
+
+#h1 {
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgba(9, 104, 30, 0.664);  
+    padding-top: 45px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+  .navbar {
+    background: linear-gradient(to bottom,  #7d7e7d 0%,rgba(9, 104, 30, 0.664) 8%,rgb(74, 187, 37));
+    margin-top: 81px;
+    width: 100%;
+    position: fixed;
+} 
+.navbar ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    overflow: hidden;
+}
+.navbar li a {
+    font-size: 20px;
+    float: right;
+    line-height: 50px;
+    margin: 10px 0;
+    padding: 0 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+.navbar li a:hover {
+    background-color: rgb(15, 11, 230);
+    color: #fff;
+}
+
+
+
